@@ -1,0 +1,14 @@
+.footer-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #e1f5fe; /* Pastel blue background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-section p {
+    font-size: 1.2em;
+    color: #00796b; /* Teal */
+    margin: 0;
+}

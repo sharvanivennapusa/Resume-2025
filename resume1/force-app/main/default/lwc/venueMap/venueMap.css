@@ -1,0 +1,48 @@
+.venue-map {
+    padding: 20px;
+    background-color: #e8f5e9; /* Pastel green background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 100%; /* Ensure it doesn’t exceed container width */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.venue-map h2 {
+    font-size: 2em;
+    color: #0288d1; /* Light blue */
+    margin-bottom: 10px;
+}
+
+.venue-map p {
+    font-size: 1.2em;
+    color: #333333; /* Dark grey */
+    margin-bottom: 20px;
+}
+
+.venue-details {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    color: #555555; /* Medium grey */
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+}
+
+.venue-details p {
+    margin: 5px 0;
+}
+
+.map-container {
+    width: 100%; /* Ensure it fits the width of its container */
+    max-width: 100%; /* Ensure it doesn’t exceed container width */
+    overflow: hidden; /* Hide any overflow */
+    margin: 0 auto; /* Center horizontally */
+}
+
+.lightning-map {
+    width: 100%; /* Fit the width of its container */
+    height: 400px; /* Adjust height as needed */
+    border-radius: 10px;
+    box-sizing: border-box; /* Include padding and border in width/height calculations */
+}

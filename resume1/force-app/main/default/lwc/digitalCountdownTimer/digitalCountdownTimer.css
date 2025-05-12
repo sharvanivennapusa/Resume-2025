@@ -1,0 +1,26 @@
+.countdown-timer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e3f2fd; /* Pastel blue background */
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif;
+    max-width: 100%; /* Ensure it fits within the container */
+    overflow: hidden;
+}
+
+.digital-display {
+    font-size: 2em; /* Adjusted font size */
+    color: #0288d1; /* Light blue */
+    display: flex;
+    justify-content: space-between; /* Space out items */
+    align-items: center;
+}
+
+.time-part {
+    margin: 0 5px;
+    background-color: #ffffff; /* White background */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

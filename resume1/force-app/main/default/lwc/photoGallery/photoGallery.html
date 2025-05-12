@@ -1,0 +1,13 @@
+<template>
+    <div class="photo-gallery">
+        <h2>Photo Gallery</h2>
+        <p>Snapshots of our journey from <code>friends()</code> to <code>lifePartners()</code>. More photos coming soon as we embark on this new sprint together!</p>
+        <div class="gallery-grid">
+            <template for:each={photos} for:item="photo">
+                <div key={photo.id} class="gallery-item">
+                    <img src={photo.url} alt={photo.alt} class="gallery-photo" />
+                </div>
+            </template>
+        </div>
+    </div>
+</template>

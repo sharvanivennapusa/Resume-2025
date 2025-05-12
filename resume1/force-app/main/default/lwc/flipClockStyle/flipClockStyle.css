@@ -1,0 +1,38 @@
+.countdown-timer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e3f2fd; /* Pastel blue background */
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif;
+    max-width: 100%; /* Ensure it fits within the container */
+    overflow: hidden;
+}
+
+.flip-clock {
+    display: flex;
+    justify-content: space-between; /* Space out items */
+    align-items: center;
+    overflow: hidden;
+}
+
+.flip-item {
+    text-align: center;
+    background-color: #ffffff; /* White background */
+    border-radius: 10px;
+    padding: 10px;
+    width: 60px; /* Adjusted size */
+    height: 80px; /* Adjusted size */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 5px; /* Space between items */
+}
+
+.flip-value {
+    font-size: 2.5em; /* Adjusted font size */
+    color: #0288d1; /* Light blue */
+}
+
+.flip-label {
+    font-size: 0.8em; /* Adjusted font size */
+    color: #00796b; /* Teal */
+}

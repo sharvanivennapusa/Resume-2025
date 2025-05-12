@@ -1,0 +1,18 @@
+.welcome-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #fbe9e7; /* Pastel pink background */
+    color: #00796b; /* Teal text */
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+.welcome-section h1 {
+    font-size: 3em;
+    color: #004d40; /* Darker teal */
+}
+
+.welcome-section p {
+    font-size: 1.2em;
+    color: #004d40; /* Darker teal */
+}

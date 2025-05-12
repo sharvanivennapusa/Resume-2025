@@ -1,0 +1,37 @@
+.wedding-announcement {
+    text-align: center;
+    padding: 20px;
+    background-color: #f3f4f6; /* Light grey background */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+    .wedding-announcement .name {
+        font-family: 'Brush Script MT', cursive; /* Stylish script font for names */
+        font-size: 1.5em; /* Larger font size for names */
+        font-weight: bold; /* Bold text for emphasis */
+        color: #e91e63; /* Stylish color for names */
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Text shadow for a subtle 3D effect */
+    }
+
+.wedding-announcement h4 {
+    font-size: 2em;
+    color: #ff4081; /* Pink */
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wedding-announcement p {
+    font-size: 1.2em;
+    color: #333333; /* Dark grey */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    text-align: center;
+}
+
+    .wedding-announcement .weds {
+        font-family: 'Brush Script MT', cursive; /* Stylish script font for names */
+        font-size: 0.9em; /* Smaller font size for "Weds" */
+    }

@@ -1,0 +1,39 @@
+.photo-gallery {
+    padding: 20px;
+    background-color: #fce4ec; /* Pastel pink background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+.photo-gallery h2 {
+    font-size: 2.5em; /* Increase heading size */
+    color: hsl(173, 100%, 24%); /* Teal */
+}
+
+.photo-gallery p {
+    font-size: 1.2em; /* Increase paragraph size */
+    margin-bottom: 20px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust min-width to increase size */
+    gap: 15px; /* Increase gap between items */
+}
+
+.gallery-item {
+    position: relative;
+    width: 200px; /* Increase width for gallery items */
+    height: 200px; /* Increase height for gallery items */
+    overflow: hidden; /* Ensure the image fits within the gallery item */
+}
+
+.gallery-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+    border-radius: 5px;
+    border: 2px solid #b2dfdb; /* Light teal */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,39 @@
+.event-details {
+    padding: 20px;
+    background-color: #e0f2f1; /* Pastel teal background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+.event-details h2 {
+    font-size: 2em;
+    color: #0288d1; /* Light blue */
+    margin-bottom: 10px;
+}
+
+.invitation-message p {
+    font-size: 1.2em;
+    color: #333; /* Dark grey */
+    margin-bottom: 10px;
+}
+
+.event-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.event-details li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #555; /* Medium grey */
+}
+
+.footer {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    opacity: 0.5;
+    font-size: 12px;
+    color: #333;
+}

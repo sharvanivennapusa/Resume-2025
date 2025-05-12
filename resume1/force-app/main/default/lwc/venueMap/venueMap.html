@@ -1,0 +1,18 @@
+<template>
+    <div class="venue-map">
+        <h2>Venue Location</h2>
+        <p>Join us on our special day!</p>
+        <div class="venue-details">
+            <p><strong>Venue:</strong> Gurudayal Sharma Marriage Hall</p>
+            <p><strong>Address:</strong> 1030/4, SH 99A, Cholan Nagar, Evergreen Nagar, Thanjavur, Tamil Nadu 613001</p>
+        </div>
+        <div class="map-container">
+            <lightning-map
+                map-markers={mapMarkers}
+                zoom-level="15"
+                center={mapCenter}
+                class="lightning-map">
+            </lightning-map>
+        </div>
+    </div>
+</template>

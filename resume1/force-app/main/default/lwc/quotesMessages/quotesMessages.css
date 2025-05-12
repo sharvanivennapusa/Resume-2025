@@ -1,0 +1,19 @@
+.quotes-section {
+    padding: 20px;
+    background-color: #f3e5f5; /* Pastel purple background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+.quotes-section h2 {
+    font-size: 2.5em;
+    color: #00796b; /* Teal */
+    margin-bottom: 20px;
+}
+
+.quotes-section p {
+    font-size: 1.2em;
+    color: #555; /* Medium grey */
+    margin: 10px 0;
+}
